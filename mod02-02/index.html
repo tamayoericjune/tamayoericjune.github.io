@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Activity 1</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+<div class="wrapper">
+	<form action="http://www.submit.com/review.php" method="post">
+
+		<fieldset name="details">
+		<legend>Your Details:</legend>
+		<label for="userName">Username:</label>
+		<input style="width:250px" type="text" name="userName id="userName" required>
+
+		<br>
+
+		<label for="passWord">Password:</label>
+		<input type="passWord" name="passWord" id="passWord" required>
+		</fieldset>
+
+		<br>
+
+		<fieldset name="details">
+		<legend>Your Review:</legend>
+		<label>How did you hear about us?</label>
+
+	<select name="aboutus"required>
+		
+		<option value="google">Google</option>
+		<option value="twitter">Twitter</option>
+		<option value="instagram">Instagram</option>
+		<option value="facebook">Facebook</option>
+	</select>
+
+		<br>
+
+		<label for="visit"> Would you visit us again?</label>
+		<br>
+		<label><input type="checkbox" name="visit" value="yes"> Yes</label>
+		<label><input type="checkbox" name="visit" value="no"> No</label>
+		<label><input type="checkbox" name="visit" value="maybe"> Maybe</label>
+
+		<br>
+
+		<label>Comments:</label>
+		<br>
+		<textarea name="comments" id="comment" cols="50" rows="10"></textarea>
+
+		<br>
+
+		<label><input type="checkbox" name="sign" value="Sign"> Sign me up for email updates</label>
+		<br>
+		<input type="submit" name="submit" id="submit" value="Subsribe Review">
+		</fieldset>
+
+
+	</form>
+</div>
+
+</body>
+</html>
