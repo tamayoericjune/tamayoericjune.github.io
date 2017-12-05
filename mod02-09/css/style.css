@@ -275,6 +275,7 @@ h3.username + p{
 	float:left;
 	padding:2px;
 	cursor:pointer;
+	padding-left:70px;
 }
 
 .list{
