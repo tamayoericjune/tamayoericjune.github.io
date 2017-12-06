@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	width:20%;
+	height:100vh;
+	/*border: 1px solid #000;*/
+	background-color: white;
+	position: fixed
+}
+.container{
+	width:80%;
+	height:100vh;
+/*	border:1px solid #000;*/
+	float:right;
+	position: relative;
+}
+.home{
+	background-color:lightblue;
+	background-image:url("https://pubg.gamepedia.com/media/pubg.gamepedia.com/b/bc/Wiki.png");
+	background-repeat:no-repeat;
+	background-position: top center;
+	color: white;
+}
+.about{
+	background-color:lightgreen;
+	background-image:url("http://s.telegraph.co.uk/graphics/ar-15/images/headergun.png");
+	background-repeat:no-repeat;
+	background-position: center;
+	color:blue;
+}
+.services{
+	background-color:lightyellow;
+	background-image:url("http://www.pvhc.net/img196/srldswfgamqdffvnrfgn.png");
+	
+}
+.projects{
+	background-color:pink;
+}
+.gallery{
+	background-color:violet;
+}
+.section{
+	width: 80%;
+    border: 25px solid black;
+    padding: 25px;
+   	position:relative;
+   	top:50%;
+   	left:50%;
+   	transform: translate(-50%,-50%);
+}
+p{
+	font-size:2em;
+}
+
+.image{
+	width:200px;
+	display: block;
+	margin: 58px auto;
+}
+a{
+	text-decoration: none;
+	text-align:center;
+}
+
+ul > li > h2 {
+	text-align:center;
+	color:red;
+}
